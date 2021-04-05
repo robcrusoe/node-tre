@@ -1,3 +1,38 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
 .pnf__header {
     color: darkslategray;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+form.add-user__form {
+    width: 35%;
+    margin: 5rem;
+    padding: 1rem;
+}
+
+button {
+    width: 8rem;
+    height: 3.5rem;
+    background: royalblue;
+    color: whitesmoke;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+input {
+    height: 3rem;
+    padding: 0.75rem;
+    margin: 0.35rem 0;
+    font-family: inherit;
 }
